@@ -1,0 +1,229 @@
+.requests-primary-tab-menu {
+  width: 20em;
+  border: 0;
+  /* border: 1px solid gray; */
+  border-radius: 5px 5px 0 0;
+
+  margin-right: 0.2em;
+  border-bottom: 0px;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+  background-color: #007b87;
+  color: #ffffff;
+}
+
+/* these are overrides for the buttons that they currently use */
+.requests-primary-tab-menu:hover {
+  width: 20em;
+  border: 0;
+  /* border: 1px solid gray; */
+  border-radius: 5px 5px 0 0;
+  border-bottom: 0px;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+  background-color: #009cab;
+  color: #ffffff;
+}
+
+.requests-primary-tab-menu-active {
+  width: 20em;
+  border-radius: 5px 5px 0 0;
+  border: 0px;
+  border-bottom: 0px;
+  margin-right: 0.1em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0e0e0;
+  color: #474747;
+}
+
+.requests-primary-tab-menu-active:focus {
+  width: 20em;
+  border: 0;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 0px;
+  margin-right: 0.1em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0e0e0;
+  color: #474747;
+}
+
+.grid-container-collapsed {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  align-items: center;
+  border: 1px solid gray;
+  box-shadow: 4px 5px 1px #e0e0e0;
+  padding: 1em;
+}
+
+.grid-item-input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 1em;
+  border: 0;
+}
+
+.grid-item-button-large {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 1em;
+  border: 0;
+}
+
+.expand-icon {
+  margin-left: auto;
+}
+
+/* generic outlined button */
+.button-outline {
+  border: 1px solid #007b87;
+  background-color: #ffffff;
+  color: #007b87;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.button-outline:hover {
+  border: 1px solid #02a1a9;
+  background-color: #ffffff;
+  color: #02a1a9;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.button-outline:active {
+  border: 1px solid #007b87;
+  background-color: #ffffff;
+  color: #007b87;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.button-outline:focus {
+  border: 1px solid #007b87;
+  background-color: #ffffff;
+  color: #007b87;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+/* end generic outline button */
+
+/* generic solid button */
+.button-solid {
+  border: 1px solid #007b87;
+  background-color: #007b87;
+  color: #ffffff;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.button-solid:hover {
+  border: 1px solid #007b87;
+  background-color: #007b87;
+  color: #ffffff;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.button-solid:focus {
+  border: 1px solid #007b87;
+  background-color: #007b87;
+  color: #ffffff;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.button-solid-disabled {
+  border: 1px solid #e0e0e0;
+  background-color: #e0e0e0;
+  color: #ffffff;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.button-solid-disabled:focus {
+  border: 1px solid #e0e0e0;
+  background-color: #e0e0e0;
+  color: #ffffff;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.button-solid-disabled:active {
+  border: 1px solid #e0e0e0;
+  background-color: #e0e0e0;
+  color: #ffffff;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+/* check https://mui.com/material-ui/api/button/#css for which button to apply to, narrow it down */
+/* .MuiButton-root {
+  
+  border: 1px solid #007b87;
+  background-color: #007b87;
+  color: #ffffff;
+  width: 100%;
+}
+
+.Mui-disabled {
+  border: 1px solid #e0e0e0;
+  background-color: #e0e0e0;
+}
+
+.MuiButton-outlined {
+  background-color: #ffffff;
+  color: #007b87;
+}
+.MuiButton-outlined:hover {
+  background-color: #ffffff;
+  color: #007b87;
+}
+
+.MuiButton-contained {
+  background-color: #007b87;
+  color: #ffffff;
+}
+
+.MuiButton-contained:hover {
+  background-color: #02a1a9;
+  color: #ffffff;
+} */
+
+/* .button-solid:hover {
+  border: 1px solid #02a1a9;
+  background-color: #007b87;
+  color: #ffffff;
+  width: 100%;
+}
+
+.button-solid:active {
+  border: 1px solid #007b87;
+  background-color: #007b87;
+  color: #ffffff;
+  width: 100%;
+}
+
+.button-solid:focus {
+  border: 1px solid #007b87;
+  background-color: #007b87;
+  color: #ffffff;
+  width: 100%;
+} */
+/* end generic solid button */
