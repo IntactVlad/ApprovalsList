@@ -11,7 +11,7 @@ import DashboardGraphs from "./DashboardGraphs";
 import ColorBadge from "./ColorBadge";
 import ButtonGroup from "@mui/material/ButtonGroup";
 
-var data = require("./taskData.js");
+var data = require("./data.js");
 
 const TaskList = (props) => {
   const buttonStyle = {
@@ -26,12 +26,12 @@ const TaskList = (props) => {
     color: "#ffffff",
     boxSizing: "border-box",
     display: "inline-flex",
-    alignItems: "center"
+    alignItems: "center",
   };
 
   const tableBorder = {
     borderCollapse: "collapse",
-    width: "100%"
+    width: "100%",
   };
 
   const assignButtonOptions = ["Assign...", "Close", "Delete"];
@@ -39,7 +39,7 @@ const TaskList = (props) => {
     "Modify View...",
     "Reorder",
     "Add/Remove Columns",
-    "Save View"
+    "Save View",
   ];
 
   const handleClick = (e) => {
@@ -56,7 +56,7 @@ const TaskList = (props) => {
     bgcolor: "background.paper",
     border: "2px solid #E0E0E0",
     height: "70%",
-    textAlign: "center"
+    textAlign: "center",
   };
 
   const [tasksModalOpen, setTasksModalOpen] = React.useState(false);
@@ -104,7 +104,7 @@ const TaskList = (props) => {
           borderBottom: "1px solid gray",
           backgroundColor: "#E0e0e0",
           color: "gray",
-          padding: "1em"
+          padding: "1em",
         }}
       >
         <div
@@ -112,7 +112,7 @@ const TaskList = (props) => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            margin: "0 1em 0 auto"
+            margin: "0 1em 0 auto",
           }}
         >
           <HelpOutlineIcon />
@@ -127,7 +127,7 @@ const TaskList = (props) => {
             borderBottom: "3px solid lightgrey",
             height: "2em",
             width: "15em",
-            display: "block"
+            display: "block",
           }}
         >
           <option defaultValue="zero">Dashboard</option>
@@ -141,7 +141,7 @@ const TaskList = (props) => {
         style={{
           border: "1px solid lightgrey",
           height: "25%",
-          margin: "2%"
+          margin: "2%",
         }}
       >
         <DashboardGraphs />
@@ -152,7 +152,7 @@ const TaskList = (props) => {
           margin: "2%",
           display: "flex",
           justifyContent: "center",
-          alignItems: "center"
+          alignItems: "center",
         }}
       >
         <select
@@ -164,7 +164,7 @@ const TaskList = (props) => {
             height: "2em",
             width: "15em",
             float: "left",
-            display: "block"
+            display: "block",
           }}
         >
           <option defaultValue="zeo">All Tasks</option>
@@ -198,7 +198,7 @@ const TaskList = (props) => {
         className="table"
         style={{
           height: "40%",
-          margin: "2%"
+          margin: "2%",
         }}
       >
         <table style={tableBorder}>
@@ -208,14 +208,14 @@ const TaskList = (props) => {
                 backgroundColor: "#E0E0E0",
                 height: "3em",
                 margin: "0",
-                padding: "0"
+                padding: "0",
               }}
             >
               <th
                 colSpan="2"
                 style={{
                   textAlign: "center",
-                  verticalAlign: "middle"
+                  verticalAlign: "middle",
                 }}
               >
                 <input
