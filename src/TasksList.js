@@ -11,7 +11,7 @@ import DashboardGraphs from "./DashboardGraphs";
 import ColorBadge from "./ColorBadge";
 import ButtonGroup from "@mui/material/ButtonGroup";
 
-var data = require("./data.js");
+var data = require("./taskData.js");
 
 const TaskList = (props) => {
   const buttonStyle = {
